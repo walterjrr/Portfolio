@@ -1,7 +1,11 @@
+import * as styled from './styles';
+
 function Home() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <styled.Wrapper>
+        <h1>Hello</h1>
+      </styled.Wrapper>
     </div>
   );
 }
