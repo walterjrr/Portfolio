@@ -2,14 +2,18 @@ import { css } from 'styled-components';
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
-*{
-  margin: 0;
-  padding: 0;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Ubuntu:ital,wght@0,700;1,700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+  }
 
-body {
-  ${({ theme }) => css`
-    background: ${theme.colors.mainBg};
-  `}
-}
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: ${({ theme }) => theme.fonts.family.default};
+    font-size: 1.6rem
+  }
 `;

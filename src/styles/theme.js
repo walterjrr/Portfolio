@@ -3,6 +3,11 @@ export const theme = {
     mainBg: 'red',
     secondaryBg: 'blue',
   },
-  fonts: {},
+  fonts: {
+    family: {
+      default: "'Ubuntu', sans-serif",
+      title: "'Koulen', cursive",
+    },
+  },
   spacing: {},
 };
