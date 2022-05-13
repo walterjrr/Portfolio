@@ -1,5 +1,7 @@
 import styled from 'styled-components';
-
+import { css } from 'styled-components';
 export const Wrapper = styled.div`
-  background: black;
+  ${({ theme, background }) => css`
+    background: ${theme.colors.secondaryBg};
+  `}
 `;

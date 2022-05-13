@@ -3,7 +3,7 @@ import * as styled from './styles';
 function Home() {
   return (
     <div className="App">
-      <styled.Wrapper>
+      <styled.Wrapper background="blue">
         <h1>Hello</h1>
       </styled.Wrapper>
     </div>
