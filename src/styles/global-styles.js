@@ -6,6 +6,7 @@ export const GlobalStyles = createGlobalStyle`
   *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   html {
@@ -15,5 +16,9 @@ export const GlobalStyles = createGlobalStyle`
   body {
     font-family: ${({ theme }) => theme.fonts.family.default};
     font-size: 1.6rem
+  }
+
+  h1 {
+    font-family: ${({ theme }) => theme.fonts.family.title};
   }
 `;
