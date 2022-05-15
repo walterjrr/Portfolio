@@ -17,4 +17,9 @@ export const theme = {
   media: {
     ltemedium: '(max-width: 768px)',
   },
+  spacing: {
+    small: '1.6rem',
+    medium: '2.4rem',
+    big: '3.2rem',
+  },
 };
